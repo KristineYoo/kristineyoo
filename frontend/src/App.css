@@ -16,19 +16,6 @@
 }
 
 
-.blob {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, #dc72b5 0%, transparent 70%);
-  border-radius: 50%;
-  filter: blur(60px);
-  opacity: 0.8;
-  z-index: -1;
-  margin-top: 130px;
-  right: -120px;
-  pointer-events: none;
-}
 
 .nav {
   display: flex;
@@ -74,17 +61,36 @@ section {
   flex-direction: row;
   align-items: flex-start;
   gap: 40px;
-  margin-left: 15%;
+  margin-left: 10%;
 
 }
 
-.about-text {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
+.about-text-column {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   margin-top: 100px;
+  margin-right: 2%;
+}
 
+.about-text-header {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 35px;
+  line-height: 1.7;
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin: 0;
+}
+
+.about-text-body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin: 0;
 }
 
 
