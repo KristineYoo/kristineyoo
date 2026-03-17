@@ -34,7 +34,7 @@
 }
 
 .nav a:hover {
-  color: rgb(137, 137, 137);
+  color: rgb(109, 165, 194);
 }
 
 
@@ -88,9 +88,11 @@ section {
   font-size: 15px;
   line-height: 1.7;
   text-align: right;
-  color: rgb(0, 0, 0);
+  color: #45362e;
   font-weight: 600;
   margin: 0;
+  padding-top: 20px;
+
 }
 
 

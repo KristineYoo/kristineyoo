@@ -15,7 +15,9 @@ export default function App() {
         <img src={photo} alt="Kristine Yoo" className="headshot" />
         <div className="about-text-column">
           <p className="about-text-header">Hi, My name is Kristine Yoo</p>
-          <p className="about-text-body">I'm an Honors Computer Science and Mathematics student at Drexel University, concentrating in Artificial Intelligence & Machine Learning and Algorithms & Theory.  </p>
+          <p className="about-text-body">I'm an Honors Computer Science and Mathematics student at Drexel University, concentrating in Artificial Intelligence & Machine Learning and Algorithms & Theory. I decided on my majors after taking an Intro to Python class freshman year of high school, but my curiosity started even earlier. As a kid, I would wake up before dawn just to watch SpaceX attempt to land the Falcon 9. That fascination with making the rocket reusable and pushing the boundaries of what's technically possible never left me. At my core, I thrive on hard problems that require you to sit with the complexity until you can reason something out. I'm passionate about applying my knowledge at the intersection of mathematical depth and systems thinking. Finding elegant, efficient solutions to problems that sit at the edge of what's computationally and analytically possible is what drives me.
+
+            I'm also deeply interested in how AI can streamline life in a meaningful, scalable way, not just automating the mundane, but augmenting the way we think, decide, build, and work.</p>
         </div>
       </div>
       <section id="about">About section</section>
